@@ -11,4 +11,4 @@ jobs:
     uses: ballerina-platform/ballerina-library/.github/workflows/s4hana-trivy-scan.yml@main
     secrets: inherit
     with:
-      hana-connector-group: qm
+      hana-connector-group: masterdata

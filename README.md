@@ -1,45 +1,14 @@
-# Ballerina SAP S/4HANA Quality Management Connectors
+# Ballerina SAP S/4HANA Master Data Connectors
 
-[![Build](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/actions/workflows/ci.yml)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-sap.s4hana.qm.svg)](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/commits/main)
+[![Build](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/actions/workflows/ci.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/actions/workflows/ci.yml)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-sap.s4hana.masterdata.svg)](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/commits/main)
 [![GitHub Issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/s4hana.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%2Fs4hana)
 
 [SAP S/4HANA](https://www.sap.com/products/erp/s4hana.html) is a robust enterprise resource planning (ERP) solution,
 designed for large-scale enterprises by SAP SE. It covers core business processes such as finance, procurement, sales,
-and materials management, including quality management.
+and materials management, and the master data these processes share, such as products.
 
-This repository encompasses all Ballerina packages pertaining to the SAP S/4HANA Quality Management module. Notably:
-
-1. [SAP S/4HANA Inspection Lot](ballerina/api_inspectionlot_srv) provides a way to interact with the
-   [Inspection Lot API](https://api.sap.com/api/API_INSPECTIONLOT_SRV/overview).
-   The service allows to read and update inspection lots with their operations, characteristics, subsets and serial
-   numbers, record inspection results and sample results, and create usage decisions.
-
-2. [SAP S/4HANA Inspection Plan](ballerina/api_inspectionplan_srv) provides a way to interact with the
-   [Inspection Plan API](https://api.sap.com/api/API_INSPECTIONPLAN_SRV/overview).
-   The service allows to create, read, update and delete inspection plans, with their material assignments,
-   operations, inspection characteristics, dependent characteristics and production resources and tools.
-
-3. [SAP S/4HANA Master Inspection Characteristic](ballerina/api_masterinspcharacteristic_srv) provides a way to interact with the
-   [Master Inspection Characteristic - Read API](https://api.sap.com/api/API_MASTERINSPCHARACTERISTIC_SRV/overview).
-   The service allows to read master inspection characteristics, the master data records that describe the quality
-   inspection criteria for materials, with their settings, control indicators and texts.
-
-4. [SAP S/4HANA Inspection Method](ballerina/api_inspectionmethod_srv) provides a way to interact with the
-   [Inspection Method - Read API](https://api.sap.com/api/API_INSPECTIONMETHOD_SRV/overview).
-   The service allows to read inspection methods, the master data records that describe the procedure for performing
-   the quality inspection of a characteristic, with their settings, administrative data and texts.
-
-5. [SAP S/4HANA Quality Info Record](ballerina/api_qualityinforecord_srv) provides a way to interact with the
-   [Quality Info Record API](https://api.sap.com/api/API_QUALITYINFORECORD_SRV/overview).
-   The service allows to create, read, update and delete quality info records in procurement and the related first
-   article inspections.
-
-6. [SAP S/4HANA Characteristic Attribute Catalog](ballerina/api_charcattributecatalog_srv) provides a way to interact with the
-   [Characteristic Attribute Catalog - Read API](https://api.sap.com/api/API_CHARCATTRIBUTECATALOG_SRV/overview).
-   The service allows to read the plant-specific selected sets of a characteristic attribute catalog, with their
-   codes and texts, that are used to record inspection results for qualitative characteristics, for example, the
-   codes 01 (Smooth) and 02 (Rough) for the characteristic Surface.
+This repository encompasses all Ballerina packages pertaining to SAP S/4HANA master data maintenance. Notably:
 
 ## Issues and projects
 
@@ -93,17 +62,11 @@ Execute the commands below to build from the source.
 4. To build only one specific package:
 
    ```bash
-   ./gradlew clean :qm-ballerina:<module_name>:build
+   ./gradlew clean :masterdata-ballerina:<module_name>:build
    ```
 
    | Module Name                      | Connector                                              |
    |----------------------------------|--------------------------------------------------------|
-   | api_inspectionlot_srv            | ballerinax/sap.s4hana.api_inspectionlot_srv            |
-   | api_inspectionplan_srv           | ballerinax/sap.s4hana.api_inspectionplan_srv           |
-   | api_masterinspcharacteristic_srv | ballerinax/sap.s4hana.api_masterinspcharacteristic_srv |
-   | api_inspectionmethod_srv         | ballerinax/sap.s4hana.api_inspectionmethod_srv         |
-   | api_qualityinforecord_srv        | ballerinax/sap.s4hana.api_qualityinforecord_srv        |
-   | api_charcattributecatalog_srv    | ballerinax/sap.s4hana.api_charcattributecatalog_srv    |
 
 5. To run tests against a live server, add a `tests/Config.toml` file to the package with the live server details
    and run the tests (`Config.toml` files are ignored by Git):

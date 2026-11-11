@@ -16,7 +16,7 @@
  * under the License.
  */
 
-description = 'Ballerina - SAP S/4HANA Quality Management APIs'
+description = 'Ballerina - SAP S/4HANA Master Data APIs'
 
 ext.ballerinaLangVersion = project.ballerinaLangVersion
 
@@ -59,7 +59,7 @@ task clean {
 }
 
 task build {
-    dependsOn(':qm-sanitation:build')
-    dependsOn(':qm-ballerina:build')
-    dependsOn(':qm-examples:build')
+    dependsOn(':masterdata-sanitation:build')
+    dependsOn(':masterdata-ballerina:build')
+    dependsOn(':masterdata-examples:build')
 }

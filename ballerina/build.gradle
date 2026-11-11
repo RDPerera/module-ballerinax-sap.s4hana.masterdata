@@ -19,7 +19,7 @@
 import groovy.json.JsonSlurper
 import org.apache.tools.ant.taskdefs.condition.Os
 
-description = 'Ballerina - SAP S/4HANA Quality Management APIs'
+description = 'Ballerina - SAP S/4HANA Master Data APIs'
 
 subprojects {
     ext {
@@ -79,12 +79,6 @@ task clean {
 
 task build {
     dependsOn(updateDocumentationFiles)
-    dependsOn(':qm-ballerina:api_inspectionlot_srv:commitTomlFiles')
-    dependsOn(':qm-ballerina:api_inspectionplan_srv:commitTomlFiles')
-    dependsOn(':qm-ballerina:api_masterinspcharacteristic_srv:commitTomlFiles')
-    dependsOn(':qm-ballerina:api_inspectionmethod_srv:commitTomlFiles')
-    dependsOn(':qm-ballerina:api_charcattributecatalog_srv:commitTomlFiles')
-    dependsOn(':qm-ballerina:api_qualityinforecord_srv:commitTomlFiles')
 }
 
 publishToMavenLocal.dependsOn build

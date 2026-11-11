@@ -39,7 +39,7 @@ task test {
 
 task build {
     gradle.taskGraph.whenReady { graph ->
-        if (graph.hasTask(":sap.s4hana.qm-examples:test")) {
+        if (graph.hasTask(":sap.s4hana.masterdata-examples:test")) {
             build.enabled = false
         }
     }
@@ -61,5 +61,5 @@ task build {
     }
 }
 
-test.dependsOn ":qm-ballerina:build"
-build.dependsOn ":qm-ballerina:build"
+test.dependsOn ":masterdata-ballerina:build"
+build.dependsOn ":masterdata-ballerina:build"

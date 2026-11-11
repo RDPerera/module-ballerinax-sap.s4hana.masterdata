@@ -2,7 +2,7 @@
 
 [SAP S/4HANA](https://www.sap.com/products/erp/s4hana.html) is a robust enterprise resource planning (ERP) solution,
 designed for large-scale enterprises by SAP SE. It covers core business processes such as finance, procurement, sales,
-and materials management, including quality management.
+and materials management, and the master data these processes share, such as products.
 
 @description@
 
@@ -33,14 +33,14 @@ Note the user name and password. These are the credentials the connector uses.
 1. Open the **Communication Systems** app and choose **New**.
 2. Enter a system ID and a system name, and choose **Create**.
 
-   ![Create a communication system](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/main/docs/setup/s4-1-communication-system.png)
+   ![Create a communication system](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/main/docs/setup/s4-1-communication-system.png)
 
 3. Under **General** > **Technical Data**, enter a host name and a **Logical System** (an uppercase ID of up to
    10 characters, for example, `INTEGRATOR`). Some scenarios refuse to activate when the logical system is empty.
 4. Under **Users for Inbound Communication**, add the communication user from Step 1 with the
    **User Name and Password** authentication method.
 
-   ![Add the communication user for inbound communication](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/main/docs/setup/s4-2-communication-system-users.png)
+   ![Add the communication user for inbound communication](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/main/docs/setup/s4-2-communication-system-users.png)
 
 5. Choose **Save**.
 
@@ -50,17 +50,17 @@ Note the user name and password. These are the credentials the connector uses.
 2. In the **Scenario** value help, search for **@communication-scenario@** and select **`@communication-scenario-id@`**.
    This is the scenario that exposes `@service-name@`, the service this connector calls.
 
-   ![Search for the communication scenario](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/main/docs/setup/@scenario-search-image@)
+   ![Search for the communication scenario](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/main/docs/setup/@scenario-search-image@)
 
 3. Enter a unique name for the arrangement and choose **Create**.
 
-   ![Name the communication arrangement](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/main/docs/setup/@new-arrangement-image@)
+   ![Name the communication arrangement](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/main/docs/setup/@new-arrangement-image@)
 
 4. Select the communication system from Step 2. The communication user from Step 1 is filled in as the inbound user.
    If the scenario lists outbound services that the integration does not need, clear their **Active** check boxes so
    that no outbound user is required.
 
-   ![Communication arrangement details](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.qm/main/docs/setup/@arrangement-details-image@)
+   ![Communication arrangement details](https://raw.githubusercontent.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/main/docs/setup/@arrangement-details-image@)
 
 5. Choose **Save**.
 

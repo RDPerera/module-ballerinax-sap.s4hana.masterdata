@@ -1,1 +1,0 @@
-../Integrate SAP with Database.md

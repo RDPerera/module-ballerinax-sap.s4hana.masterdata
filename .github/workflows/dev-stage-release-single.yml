@@ -15,12 +15,6 @@ on:
         description: Select Connector
         required: true
         options:
-          - api_inspectionlot_srv
-          - api_inspectionplan_srv
-          - api_masterinspcharacteristic_srv
-          - api_inspectionmethod_srv
-          - api_charcattributecatalog_srv
-          - api_qualityinforecord_srv
 
 jobs:
   call_workflow:
@@ -30,5 +24,5 @@ jobs:
     secrets: inherit
     with:
       environment: ${{ inputs.environment }}
-      hana-connector-group: qm
+      hana-connector-group: masterdata
       hana-connector-name: ${{ inputs.connector }}
