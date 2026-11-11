@@ -79,6 +79,7 @@ task clean {
 
 task build {
     dependsOn(updateDocumentationFiles)
+    dependsOn(':masterdata-ballerina:api_product_srv:commitTomlFiles')
 }
 
 publishToMavenLocal.dependsOn build

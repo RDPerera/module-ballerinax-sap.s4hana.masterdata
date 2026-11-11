@@ -10,6 +10,11 @@ and materials management, and the master data these processes share, such as pro
 
 This repository encompasses all Ballerina packages pertaining to SAP S/4HANA master data maintenance. Notably:
 
+1. [SAP S/4HANA Product Master](ballerina/api_product_srv) provides a way to interact with the
+   [Product Master (A2X) API](https://api.sap.com/api/API_PRODUCT_SRV/overview).
+   The service allows to create, read, update and delete products, with their descriptions and their plant, sales,
+   procurement, storage, valuation and quality management data.
+
 ## Issues and projects
 
 The **Issues** and **Projects** tabs are disabled for this repository as this is part of the Ballerina library. To
@@ -67,6 +72,7 @@ Execute the commands below to build from the source.
 
    | Module Name                      | Connector                                              |
    |----------------------------------|--------------------------------------------------------|
+   | api_product_srv                  | ballerinax/sap.s4hana.api_product_srv                  |
 
 5. To run tests against a live server, add a `tests/Config.toml` file to the package with the live server details
    and run the tests (`Config.toml` files are ignored by Git):

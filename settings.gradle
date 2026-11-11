@@ -32,10 +32,12 @@ rootProject.name = "module-ballerinax-sap.s4hana.masterdata"
 
 include ':masterdata-sanitation'
 include ':masterdata-ballerina'
+include ':masterdata-ballerina:api_product_srv'
 include ':masterdata-examples'
 
 project(':masterdata-sanitation').projectDir = file("docs/sanitation")
 project(':masterdata-ballerina').projectDir = file("ballerina")
+project(':masterdata-ballerina:api_product_srv').projectDir = file("ballerina/api_product_srv")
 project(':masterdata-examples').projectDir = file("examples")
 
 gradleEnterprise {

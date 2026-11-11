@@ -8,6 +8,7 @@ on:
         description: Select Environment
         required: true
         options:
+          - api_product_srv
           - DEV CENTRAL
           - STAGE CENTRAL
       connector:
