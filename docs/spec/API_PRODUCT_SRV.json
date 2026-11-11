@@ -219,6 +219,7 @@
   "paths": {
     "/A_Product": {
       "get": {
+        "operationId": "listA_Products",
         "summary": "Returns product master records",
         "description": "Returns general data of product master",
         "tags": [
@@ -287,6 +288,7 @@
         }
       },
       "post": {
+        "operationId": "createA_Product",
         "summary": "Creates product master record",
         "description": "Creates general data of product master record along with organizational data such as plant and sales",
         "tags": [
@@ -340,6 +342,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_Product",
         "summary": "Returns product master record by product number",
         "description": "Returns general data of a product master record by product number",
         "tags": [
@@ -376,6 +379,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_Product",
         "summary": "Updates product master record",
         "description": "Updates general data of a product master record",
         "tags": [
@@ -422,6 +426,7 @@
         }
       ],
       "get": {
+        "operationId": "listDescriptionsOfA_Product",
         "summary": "Returns description",
         "description": "Returns description of product master record. Descriptions can be in different languages.",
         "tags": [
@@ -488,6 +493,7 @@
         }
       },
       "post": {
+        "operationId": "createDescriptionOfA_Product",
         "summary": "Creates a new description",
         "description": "Creates description of a product master record in a specified language",
         "tags": [
@@ -542,6 +548,7 @@
         }
       ],
       "get": {
+        "operationId": "listPlantsOfA_Product",
         "summary": "Returns plant data",
         "description": "Returns plant data of product master record",
         "tags": [
@@ -611,6 +618,7 @@
         }
       },
       "post": {
+        "operationId": "createPlantOfA_Product",
         "summary": "Creates plant data",
         "description": "Creates plant data of a product master record",
         "tags": [
@@ -665,6 +673,7 @@
         }
       ],
       "get": {
+        "operationId": "listProductBasicTextsOfA_Product",
         "summary": "Returns basic data text",
         "description": "Returns basic data text of product master record",
         "tags": [
@@ -731,6 +740,7 @@
         }
       },
       "post": {
+        "operationId": "createProductBasicTextOfA_Product",
         "summary": "Creates basic data text",
         "description": "Creates basic data text of a product master record in a specified language",
         "tags": [
@@ -785,6 +795,7 @@
         }
       ],
       "get": {
+        "operationId": "listProductInspectionTextsOfA_Product",
         "summary": "Returns inspection text",
         "description": "Returns inspection text of product master record",
         "tags": [
@@ -851,6 +862,7 @@
         }
       },
       "post": {
+        "operationId": "createProductInspectionTextOfA_Product",
         "summary": "Creates inspection text",
         "description": "Creates inspection text of a product master record in a specified language",
         "tags": [
@@ -905,6 +917,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductProcurementOfA_Product",
         "summary": "Returns basic procurement data",
         "description": "Returns basic procurement data of product master record",
         "tags": [
@@ -953,6 +966,7 @@
         }
       ],
       "get": {
+        "operationId": "listProductPurchaseTextsOfA_Product",
         "summary": "Returns purchase text",
         "description": "Returns purchase text of product master record",
         "tags": [
@@ -1019,6 +1033,7 @@
         }
       },
       "post": {
+        "operationId": "createProductPurchaseTextOfA_Product",
         "summary": "Creates purchase text",
         "description": "Creates purchase text of a product master record in a specified language",
         "tags": [
@@ -1073,6 +1088,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductQualityMgmtOfA_Product",
         "summary": "Returns basic quality management data",
         "description": "Returns basic quality management data of product master record",
         "tags": [
@@ -1121,6 +1137,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductSalesOfA_Product",
         "summary": "Returns basic sales data",
         "description": "Returns basic sales data of product master record",
         "tags": [
@@ -1169,6 +1186,7 @@
         }
       ],
       "get": {
+        "operationId": "listProductSalesTaxesOfA_Product",
         "summary": "Returns sales tax data",
         "description": "Returns sales tax data of product master record",
         "tags": [
@@ -1235,6 +1253,7 @@
         }
       },
       "post": {
+        "operationId": "createProductSalesTaxOfA_Product",
         "summary": "Creates sales tax data",
         "description": "Creates sales tax data of a product master record",
         "tags": [
@@ -1289,6 +1308,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductStorageOfA_Product",
         "summary": "Returns basic storage data",
         "description": "Returns basic storage data of product master record",
         "tags": [
@@ -1337,6 +1357,7 @@
         }
       ],
       "get": {
+        "operationId": "listProductUnitsOfMeasuresOfA_Product",
         "summary": "Returns units of measure",
         "description": "Returns units of measure of product master record",
         "tags": [
@@ -1406,6 +1427,7 @@
         }
       },
       "post": {
+        "operationId": "createProductUnitsOfMeasureOfA_Product",
         "summary": "Creates units of measure",
         "description": "Creates units of measure of a product master record",
         "tags": [
@@ -1460,6 +1482,7 @@
         }
       ],
       "get": {
+        "operationId": "listSalesDeliveriesOfA_Product",
         "summary": "Returns sales organization data",
         "description": "Returns sales organization data of product master record",
         "tags": [
@@ -1529,6 +1552,7 @@
         }
       },
       "post": {
+        "operationId": "createSalesDeliveryOfA_Product",
         "summary": "Creates sales organization data",
         "description": "Creates sales organization data of a product master record",
         "tags": [
@@ -1583,6 +1607,7 @@
         }
       ],
       "get": {
+        "operationId": "listValuationsOfA_Product",
         "summary": "Returns valuation area data",
         "description": "Returns valuation area data of product master record",
         "tags": [
@@ -1652,6 +1677,7 @@
         }
       },
       "post": {
+        "operationId": "createValuationOfA_Product",
         "summary": "Creates valuation area data",
         "description": "Creates valuation area data of a product master record",
         "tags": [
@@ -1694,6 +1720,7 @@
     },
     "/A_ProductBasicText": {
       "get": {
+        "operationId": "listA_ProductBasicTexts",
         "summary": "Returns basic data text",
         "description": "Returns basic data text of product master record",
         "tags": [
@@ -1759,6 +1786,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductBasicText",
         "summary": "Creates basic data text",
         "description": "Creates basic data text of a product master record in a specified language",
         "tags": [
@@ -1822,6 +1850,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductBasicText",
         "summary": "Returns basic data text by product number and language",
         "description": "Returns basic data text of a product master record by product number and language",
         "tags": [
@@ -1855,6 +1884,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductBasicText",
         "summary": "Updates basic data text",
         "description": "Updates basic data text of a product master record in a specified language",
         "tags": [
@@ -1887,6 +1917,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductBasicText",
         "summary": "Deletes basic data text",
         "description": "Deletes basic data text of a product master record in a specified language",
         "tags": [
@@ -1904,6 +1935,7 @@
     },
     "/A_ProductDescription": {
       "get": {
+        "operationId": "listA_ProductDescriptions",
         "summary": "Returns description",
         "description": "Returns description of product master record. Descriptions can be in different languages.",
         "tags": [
@@ -1969,6 +2001,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductDescription",
         "summary": "Creates a new description",
         "description": "Creates description of a product master record in a specified language",
         "tags": [
@@ -2032,6 +2065,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductDescription",
         "summary": "Returns description by product number and language",
         "description": "Returns description of a product master record by product number and language",
         "tags": [
@@ -2065,6 +2099,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductDescription",
         "summary": "Updates a description",
         "description": "Updates description of a product master record in a specified language",
         "tags": [
@@ -2097,6 +2132,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductDescription",
         "summary": "Deletes a description",
         "description": "Deletes description of a product master record in a specified language",
         "tags": [
@@ -2114,6 +2150,7 @@
     },
     "/A_ProductInspectionText": {
       "get": {
+        "operationId": "listA_ProductInspectionTexts",
         "summary": "Returns inspection text",
         "description": "Returns inspection text of product master record",
         "tags": [
@@ -2179,6 +2216,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductInspectionText",
         "summary": "Creates inspection text",
         "description": "Creates inspection text of a product master record in a specified language",
         "tags": [
@@ -2242,6 +2280,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductInspectionText",
         "summary": "Returns inspection text by product number and language",
         "description": "Returns inspection text of a product master record by product number and language",
         "tags": [
@@ -2275,6 +2314,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductInspectionText",
         "summary": "Updates inspection text",
         "description": "Updates inspection text of a product master record in a specified language",
         "tags": [
@@ -2307,6 +2347,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductInspectionText",
         "summary": "Deletes inspection text",
         "description": "Deletes inspection text of a product master record in a specified language",
         "tags": [
@@ -2324,6 +2365,7 @@
     },
     "/A_ProductMLAccount": {
       "get": {
+        "operationId": "listA_ProductMLAccounts",
         "summary": "Returns material ledger account data",
         "description": "Returns material ledger account data of product master record",
         "tags": [
@@ -2389,6 +2431,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductMLAccount",
         "summary": "Creates material ledger account data",
         "description": "Creates material ledger account data of a product master record",
         "tags": [
@@ -2474,6 +2517,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductMLAccount",
         "summary": "Returns material ledger account data by product number, valuation area, valuation type and currency",
         "description": "Returns material ledger account data of a product master record by product number, valuation area, valuation type and currency",
         "tags": [
@@ -2507,6 +2551,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductMLAccount",
         "summary": "Updates material ledger account data",
         "description": "Updates material ledger account data of a product master record",
         "tags": [
@@ -2541,6 +2586,7 @@
     },
     "/A_ProductMLPrices": {
       "get": {
+        "operationId": "listA_ProductMLPricess",
         "summary": "Returns material ledger price data",
         "description": "Returns material ledger price data of product master record",
         "tags": [
@@ -2606,6 +2652,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductMLPrices",
         "summary": "Creates material ledger price data",
         "description": "Creates material ledger price data of a product master record",
         "tags": [
@@ -2691,6 +2738,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductMLPrices",
         "summary": "Returns material ledger price data by product number, valuation area, valuation type and currency",
         "description": "Returns material ledger price data of a product master record by product number, valuation area, valuation type and currency",
         "tags": [
@@ -2724,6 +2772,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductMLPrices",
         "summary": "Updates material ledger price data",
         "description": "Updates material ledger price data of a product master record",
         "tags": [
@@ -2758,6 +2807,7 @@
     },
     "/A_ProductPlant": {
       "get": {
+        "operationId": "listA_ProductPlants",
         "summary": "Returns plant data",
         "description": "Returns plant data of product master record",
         "tags": [
@@ -2826,6 +2876,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlant",
         "summary": "Creates plant data",
         "description": "Creates plant data of a product master record",
         "tags": [
@@ -2889,6 +2940,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlant",
         "summary": "Returns plant data by product number and plant",
         "description": "Returns plant data of a product master record by product number and plant",
         "tags": [
@@ -2925,6 +2977,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlant",
         "summary": "Updates plant data",
         "description": "Updates plant data of a product master record",
         "tags": [
@@ -2981,6 +3034,7 @@
         }
       ],
       "get": {
+        "operationId": "listPlantMRPAreasOfA_ProductPlant",
         "summary": "Returns MRP area data",
         "description": "Returns MRP area data of product master record",
         "tags": [
@@ -3047,6 +3101,7 @@
         }
       },
       "post": {
+        "operationId": "createPlantMRPAreaOfA_ProductPlant",
         "summary": "Creates MRP area data",
         "description": "Creates MRP area data of a product master record",
         "tags": [
@@ -3111,6 +3166,7 @@
         }
       ],
       "get": {
+        "operationId": "getPlantQualityMgmtOfA_ProductPlant",
         "summary": "Returns quality management data",
         "description": "Returns quality management data of product master record for a plant",
         "tags": [
@@ -3169,6 +3225,7 @@
         }
       ],
       "get": {
+        "operationId": "getPlantSalesOfA_ProductPlant",
         "summary": "Returns sales data",
         "description": "Returns sales data of product master record for a plant",
         "tags": [
@@ -3227,6 +3284,7 @@
         }
       ],
       "get": {
+        "operationId": "getPlantStorageOfA_ProductPlant",
         "summary": "Returns storage data",
         "description": "Returns storage data of product master record for a plant",
         "tags": [
@@ -3285,6 +3343,7 @@
         }
       ],
       "get": {
+        "operationId": "getPlantTextOfA_ProductPlant",
         "summary": "Returns plant text",
         "description": "Returns plant text of product master record",
         "tags": [
@@ -3343,6 +3402,7 @@
         }
       ],
       "get": {
+        "operationId": "getProdPlantInternationalTradeOfA_ProductPlant",
         "summary": "Returns international trade data",
         "description": "Returns international trade data of product master record",
         "tags": [
@@ -3401,6 +3461,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductPlantCostingOfA_ProductPlant",
         "summary": "Returns costing data",
         "description": "Returns costing data of product master record for a plant",
         "tags": [
@@ -3459,6 +3520,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductPlantForecastOfA_ProductPlant",
         "summary": "Returns forecasting data",
         "description": "Returns forecasting data of product master record",
         "tags": [
@@ -3517,6 +3579,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductPlantProcurementOfA_ProductPlant",
         "summary": "Returns procurement data",
         "description": "Returns procurement data of product master record for a plant",
         "tags": [
@@ -3575,6 +3638,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductSupplyPlanningOfA_ProductPlant",
         "summary": "Returns supply planning data",
         "description": "Returns supply planning data of product master record",
         "tags": [
@@ -3633,6 +3697,7 @@
         }
       ],
       "get": {
+        "operationId": "getProductWorkSchedulingOfA_ProductPlant",
         "summary": "Returns work scheduling data",
         "description": "Returns work scheduling data of product master record",
         "tags": [
@@ -3691,6 +3756,7 @@
         }
       ],
       "get": {
+        "operationId": "listStorageLocationsOfA_ProductPlant",
         "summary": "Returns storage location data",
         "description": "Returns storage location data of product master record",
         "tags": [
@@ -3757,6 +3823,7 @@
         }
       },
       "post": {
+        "operationId": "createStorageLocationOfA_ProductPlant",
         "summary": "Creates storage location data",
         "description": "Creates storage location data of a product master record",
         "tags": [
@@ -3799,6 +3866,7 @@
     },
     "/A_ProductPlantCosting": {
       "get": {
+        "operationId": "listA_ProductPlantCostings",
         "summary": "Returns costing data",
         "description": "Returns costing data of product master record for a plant",
         "tags": [
@@ -3864,6 +3932,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantCosting",
         "summary": "Creates costing data",
         "description": "Creates costing data of a product master record for a plant",
         "tags": [
@@ -3927,6 +3996,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantCosting",
         "summary": "Returns costing data by product number and plant",
         "description": "Returns costing data of a product master record for a plant by product number and plant",
         "tags": [
@@ -3960,6 +4030,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantCosting",
         "summary": "Updates costing data",
         "description": "Updates costing data of a product master record for a plant",
         "tags": [
@@ -3994,6 +4065,7 @@
     },
     "/A_ProductPlantForecasting": {
       "get": {
+        "operationId": "listA_ProductPlantForecastings",
         "summary": "Returns forecasting data",
         "description": "Returns forecasting data of product master record",
         "tags": [
@@ -4059,6 +4131,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantForecasting",
         "summary": "Creates forecasting data",
         "description": "Creates forecasting data of a product master record",
         "tags": [
@@ -4122,6 +4195,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantForecasting",
         "summary": "Returns forecasting data by product number and plant",
         "description": "Returns forecasting data of a product master record by product number and plant",
         "tags": [
@@ -4155,6 +4229,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantForecasting",
         "summary": "Updates forecasting data",
         "description": "Updates forecasting data of a product master record",
         "tags": [
@@ -4189,6 +4264,7 @@
     },
     "/A_ProductPlantIntlTrd": {
       "get": {
+        "operationId": "listA_ProductPlantIntlTrds",
         "summary": "Returns international trade data",
         "description": "Returns international trade data of product master record",
         "tags": [
@@ -4254,6 +4330,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantIntlTrd",
         "summary": "Creates international trade data",
         "description": "Creates international trade data of a product master record",
         "tags": [
@@ -4317,6 +4394,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantIntlTrd",
         "summary": "Returns international trade data by product number and plant",
         "description": "Returns international trade data of a product master record by product number and plant",
         "tags": [
@@ -4350,6 +4428,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantIntlTrd",
         "summary": "Updates international trade data",
         "description": "Updates international trade data of a product master record",
         "tags": [
@@ -4384,6 +4463,7 @@
     },
     "/A_ProductPlantMRPArea": {
       "get": {
+        "operationId": "listA_ProductPlantMRPAreas",
         "summary": "Returns MRP area data",
         "description": "Returns MRP area data of product master record",
         "tags": [
@@ -4449,6 +4529,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantMRPArea",
         "summary": "Creates MRP area data",
         "description": "Creates MRP area data of a product master record",
         "tags": [
@@ -4522,6 +4603,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantMRPArea",
         "summary": "Returns MRP area data by product number, plant and MRP area",
         "description": "Returns MRP area data of a product master record by product number, plant and MRP area",
         "tags": [
@@ -4555,6 +4637,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantMRPArea",
         "summary": "Updates MRP area data",
         "description": "Updates MRP area data of a product master record",
         "tags": [
@@ -4589,6 +4672,7 @@
     },
     "/A_ProductPlantProcurement": {
       "get": {
+        "operationId": "listA_ProductPlantProcurements",
         "summary": "Returns procurement data",
         "description": "Returns procurement data of product master record for a plant",
         "tags": [
@@ -4654,6 +4738,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantProcurement",
         "summary": "Creates procurement data",
         "description": "Creates procurement data of a product master record for a plant",
         "tags": [
@@ -4717,6 +4802,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantProcurement",
         "summary": "Returns procurement data by product number and plant",
         "description": "Returns procurement data of a product master record for a plant by product number and plant",
         "tags": [
@@ -4750,6 +4836,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantProcurement",
         "summary": "Updates procurement data",
         "description": "Updates procurement data of a product master record for a plant",
         "tags": [
@@ -4784,6 +4871,7 @@
     },
     "/A_ProductPlantQualityMgmt": {
       "get": {
+        "operationId": "listA_ProductPlantQualityMgmts",
         "summary": "Returns quality management data",
         "description": "Returns quality management data of product master record for a plant",
         "tags": [
@@ -4849,6 +4937,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantQualityMgmt",
         "summary": "Creates quality management data",
         "description": "Creates quality management data of a product master record for a plant",
         "tags": [
@@ -4912,6 +5001,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantQualityMgmt",
         "summary": "Returns quality management data by product number and plant",
         "description": "Returns quality management data of a product master record for a plant by product number and plant",
         "tags": [
@@ -4945,6 +5035,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantQualityMgmt",
         "summary": "Updates quality management data",
         "description": "Updates quality management data of a product master record for a plant",
         "tags": [
@@ -4979,6 +5070,7 @@
     },
     "/A_ProductPlantSales": {
       "get": {
+        "operationId": "listA_ProductPlantSaless",
         "summary": "Returns sales data",
         "description": "Returns sales data of product master record for a plant",
         "tags": [
@@ -5044,6 +5136,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantSales",
         "summary": "Creates sales data",
         "description": "Creates sales data of a product master record for a plant",
         "tags": [
@@ -5107,6 +5200,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantSales",
         "summary": "Returns sales data by product number and plant",
         "description": "Returns sales data of a product master record for a plant by product number and plant",
         "tags": [
@@ -5140,6 +5234,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantSales",
         "summary": "Updates sales data",
         "description": "Updates sales data of a product master record for a plant",
         "tags": [
@@ -5174,6 +5269,7 @@
     },
     "/A_ProductPlantStorage": {
       "get": {
+        "operationId": "listA_ProductPlantStorages",
         "summary": "Returns storage data",
         "description": "Returns storage data of product master record for a plant",
         "tags": [
@@ -5239,6 +5335,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantStorage",
         "summary": "Creates storage data",
         "description": "Creates storage data of a product master record for a plant",
         "tags": [
@@ -5302,6 +5399,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantStorage",
         "summary": "Returns storage data by product number and plant",
         "description": "Returns storage data of a product master record for a plant by product number and plant",
         "tags": [
@@ -5335,6 +5433,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantStorage",
         "summary": "Updates storage data",
         "description": "Updates storage data of a product master record for a plant",
         "tags": [
@@ -5369,6 +5468,7 @@
     },
     "/A_ProductPlantText": {
       "get": {
+        "operationId": "listA_ProductPlantTexts",
         "summary": "Returns plant text",
         "description": "Returns plant text of product master record",
         "tags": [
@@ -5434,6 +5534,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPlantText",
         "summary": "Creates plant text",
         "description": "Creates plant text of a product master record",
         "tags": [
@@ -5497,6 +5598,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPlantText",
         "summary": "Returns plant text by product number and plant",
         "description": "Returns plant text of a product master record by product number and plant",
         "tags": [
@@ -5530,6 +5632,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPlantText",
         "summary": "Updates plant text",
         "description": "Updates plant text of a product master record",
         "tags": [
@@ -5562,6 +5665,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductPlantText",
         "summary": "Deletes plant text",
         "description": "Deletes plant text of a product master record",
         "tags": [
@@ -5579,6 +5683,7 @@
     },
     "/A_ProductProcurement": {
       "get": {
+        "operationId": "listA_ProductProcurements",
         "summary": "Returns basic procurement data",
         "description": "Returns basic procurement data of product master record",
         "tags": [
@@ -5644,6 +5749,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductProcurement",
         "summary": "Creates basic procurement data",
         "description": "Creates basic procurement data of a product master record",
         "tags": [
@@ -5697,6 +5803,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductProcurement",
         "summary": "Returns basic procurement data by product number",
         "description": "Returns basic procurement data of a product master record by product number",
         "tags": [
@@ -5730,6 +5837,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductProcurement",
         "summary": "Updates basic procurement data",
         "description": "Updates basic procurement data of a product master record",
         "tags": [
@@ -5764,6 +5872,7 @@
     },
     "/A_ProductPurchaseText": {
       "get": {
+        "operationId": "listA_ProductPurchaseTexts",
         "summary": "Returns purchase text",
         "description": "Returns purchase text of product master record",
         "tags": [
@@ -5829,6 +5938,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductPurchaseText",
         "summary": "Creates purchase text",
         "description": "Creates purchase text of a product master record in a specified language",
         "tags": [
@@ -5892,6 +6002,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductPurchaseText",
         "summary": "Returns purchase text by product number and language",
         "description": "Returns purchase text of a product master record by product number and language",
         "tags": [
@@ -5925,6 +6036,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductPurchaseText",
         "summary": "Updates purchase text",
         "description": "Updates purchase text of a product master record in a specified language",
         "tags": [
@@ -5957,6 +6069,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductPurchaseText",
         "summary": "Deletes purchase text",
         "description": "Deletes purchase text of a product master record in a specified language",
         "tags": [
@@ -5974,6 +6087,7 @@
     },
     "/A_ProductQualityMgmt": {
       "get": {
+        "operationId": "listA_ProductQualityMgmts",
         "summary": "Returns basic quality management data",
         "description": "Returns basic quality management data of product master record",
         "tags": [
@@ -6039,6 +6153,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductQualityMgmt",
         "summary": "Creates basic quality management data",
         "description": "Creates basic quality management data of a product master record",
         "tags": [
@@ -6092,6 +6207,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductQualityMgmt",
         "summary": "Returns basic quality management data by product number",
         "description": "Returns basic quality management data of a product master record by product number",
         "tags": [
@@ -6125,6 +6241,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductQualityMgmt",
         "summary": "Updates basic quality management data",
         "description": "Updates basic quality management data of a product master record",
         "tags": [
@@ -6159,6 +6276,7 @@
     },
     "/A_ProductSales": {
       "get": {
+        "operationId": "listA_ProductSaless",
         "summary": "Returns basic sales data",
         "description": "Returns basic sales data of product master record",
         "tags": [
@@ -6224,6 +6342,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductSales",
         "summary": "Creates basic sales data",
         "description": "Creates basic sales data of a product master record",
         "tags": [
@@ -6277,6 +6396,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductSales",
         "summary": "Returns basic sales data by product number",
         "description": "Returns basic sales data of a product master record by product number",
         "tags": [
@@ -6310,6 +6430,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductSales",
         "summary": "Updates basic sales data",
         "description": "Updates basic sales data of a product master record",
         "tags": [
@@ -6344,6 +6465,7 @@
     },
     "/A_ProductSalesDelivery": {
       "get": {
+        "operationId": "listA_ProductSalesDeliveries",
         "summary": "Returns sales organization data",
         "description": "Returns sales organization data of product master record",
         "tags": [
@@ -6412,6 +6534,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductSalesDelivery",
         "summary": "Creates sales organization data",
         "description": "Creates sales organization data of a product master record",
         "tags": [
@@ -6485,6 +6608,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductSalesDelivery",
         "summary": "Returns sales organization data by product, sales organization and distribution channel",
         "description": "Returns sales organization data of a product master record by product, sales organization and distribution channel",
         "tags": [
@@ -6521,6 +6645,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductSalesDelivery",
         "summary": "Updates sales organization data",
         "description": "Updates sales organization data of a product master record",
         "tags": [
@@ -6587,6 +6712,7 @@
         }
       ],
       "get": {
+        "operationId": "listSalesTaxesOfA_ProductSalesDelivery",
         "summary": "Returns sales tax data",
         "description": "Returns sales tax data of product master record",
         "tags": [
@@ -6653,6 +6779,7 @@
         }
       },
       "post": {
+        "operationId": "createSalesTaxOfA_ProductSalesDelivery",
         "summary": "Creates sales tax data",
         "description": "Creates sales tax data of a product master record",
         "tags": [
@@ -6727,6 +6854,7 @@
         }
       ],
       "get": {
+        "operationId": "listSalesTextsOfA_ProductSalesDelivery",
         "summary": "Returns sales text",
         "description": "Returns sales text of product master record",
         "tags": [
@@ -6793,6 +6921,7 @@
         }
       },
       "post": {
+        "operationId": "createSalesTextOfA_ProductSalesDelivery",
         "summary": "Creates sales text",
         "description": "Creates sales text of a product master record in a specified language",
         "tags": [
@@ -6835,6 +6964,7 @@
     },
     "/A_ProductSalesTax": {
       "get": {
+        "operationId": "listA_ProductSalesTaxes",
         "summary": "Returns sales tax data",
         "description": "Returns sales tax data of product master record",
         "tags": [
@@ -6900,6 +7030,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductSalesTax",
         "summary": "Creates sales tax data",
         "description": "Creates sales tax data of a product master record",
         "tags": [
@@ -6983,6 +7114,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductSalesTax",
         "summary": "Returns sales tax data by product number and country",
         "description": "Returns sales tax data of a product master record by product number and country",
         "tags": [
@@ -7016,6 +7148,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductSalesTax",
         "summary": "Updates sales tax data",
         "description": "Updates sales tax data of a product master record",
         "tags": [
@@ -7048,6 +7181,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductSalesTax",
         "summary": "Deletes sales tax data",
         "description": "Deletes sales tax data from a product master record",
         "tags": [
@@ -7065,6 +7199,7 @@
     },
     "/A_ProductSalesText": {
       "get": {
+        "operationId": "listA_ProductSalesTexts",
         "summary": "Returns sales text",
         "description": "Returns sales text of product master record",
         "tags": [
@@ -7130,6 +7265,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductSalesText",
         "summary": "Creates sales text",
         "description": "Creates sales text of a product master record in a specified language",
         "tags": [
@@ -7213,6 +7349,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductSalesText",
         "summary": "Returns sales text by product number, sales organization, distribution channel and language",
         "description": "Returns sales text of a product master record by product number, sales organization, distribution channel and language",
         "tags": [
@@ -7246,6 +7383,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductSalesText",
         "summary": "Updates sales text",
         "description": "Updates sales text of a product master record in a specified language",
         "tags": [
@@ -7278,6 +7416,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductSalesText",
         "summary": "Deletes sales text",
         "description": "Deletes sales text of a product master record in a specified language",
         "tags": [
@@ -7295,6 +7434,7 @@
     },
     "/A_ProductStorage": {
       "get": {
+        "operationId": "listA_ProductStorages",
         "summary": "Returns basic storage data",
         "description": "Returns basic storage data of product master record",
         "tags": [
@@ -7360,6 +7500,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductStorage",
         "summary": "Creates basic storage data",
         "description": "Creates basic storage data of a product master record",
         "tags": [
@@ -7413,6 +7554,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductStorage",
         "summary": "Returns basic storage data by product number",
         "description": "Returns basic storage data of a product master record by product number",
         "tags": [
@@ -7446,6 +7588,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductStorage",
         "summary": "Updates basic storage data",
         "description": "Updates basic storage data of a product master record",
         "tags": [
@@ -7480,6 +7623,7 @@
     },
     "/A_ProductStorageLocation": {
       "get": {
+        "operationId": "listA_ProductStorageLocations",
         "summary": "Returns storage location data",
         "description": "Returns storage location data of product master record",
         "tags": [
@@ -7545,6 +7689,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductStorageLocation",
         "summary": "Creates storage location data",
         "description": "Creates storage location data of a product master record",
         "tags": [
@@ -7619,6 +7764,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductStorageLocation",
         "summary": "Returns storage location data by product number, plant and storage location",
         "description": "Returns storage location data of a product master record by product number, plant and storage location",
         "tags": [
@@ -7652,6 +7798,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductStorageLocation",
         "summary": "Updates storage location data",
         "description": "Updates storage location data of a product master record",
         "tags": [
@@ -7686,6 +7833,7 @@
     },
     "/A_ProductSupplyPlanning": {
       "get": {
+        "operationId": "listA_ProductSupplyPlannings",
         "summary": "Returns supply planning data",
         "description": "Returns supply planning data of product master record",
         "tags": [
@@ -7751,6 +7899,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductSupplyPlanning",
         "summary": "Creates supply planning data",
         "description": "Creates supply planning data of a product master record",
         "tags": [
@@ -7814,6 +7963,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductSupplyPlanning",
         "summary": "Returns supply planning data by product number and plant",
         "description": "Returns supply planning data of a product master record by product number and plant",
         "tags": [
@@ -7847,6 +7997,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductSupplyPlanning",
         "summary": "Updates supply planning data",
         "description": "Updates supply planning data of a product master record",
         "tags": [
@@ -7881,6 +8032,7 @@
     },
     "/A_ProductUnitsOfMeasure": {
       "get": {
+        "operationId": "listA_ProductUnitsOfMeasures",
         "summary": "Returns units of measure",
         "description": "Returns units of measure of product master record",
         "tags": [
@@ -7949,6 +8101,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductUnitsOfMeasure",
         "summary": "Creates units of measure",
         "description": "Creates units of measure of a product master record",
         "tags": [
@@ -8012,6 +8165,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductUnitsOfMeasure",
         "summary": "Returns units of measure by product number and alternative unit",
         "description": "Returns units of measure of a product master record by product number and alternative unit",
         "tags": [
@@ -8048,6 +8202,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductUnitsOfMeasure",
         "summary": "Updates units of measure",
         "description": "Updates units of measure of a product master record",
         "tags": [
@@ -8080,6 +8235,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductUnitsOfMeasure",
         "summary": "Deletes units of measure",
         "description": "Deletes units of measure of a product master record",
         "tags": [
@@ -8119,6 +8275,7 @@
         }
       ],
       "get": {
+        "operationId": "listInternationalArticleNumbersOfA_ProductUnitsOfMeasure",
         "summary": "Returns GTIN data",
         "description": "Returns GTIN data of product master record",
         "tags": [
@@ -8185,6 +8342,7 @@
         }
       },
       "post": {
+        "operationId": "createInternationalArticleNumberOfA_ProductUnitsOfMeasure",
         "summary": "Creates GTIN data",
         "description": "Creates GTIN data of a product master record",
         "tags": [
@@ -8227,6 +8385,7 @@
     },
     "/A_ProductUnitsOfMeasureEAN": {
       "get": {
+        "operationId": "listA_ProductUnitsOfMeasureEANs",
         "summary": "Returns GTIN data",
         "description": "Returns GTIN data of product master record",
         "tags": [
@@ -8292,6 +8451,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductUnitsOfMeasureEAN",
         "summary": "Creates GTIN data",
         "description": "Creates GTIN data of a product master record",
         "tags": [
@@ -8365,6 +8525,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductUnitsOfMeasureEAN",
         "summary": "Returns GTIN data by product number, alternative unit and consecutive number",
         "description": "Returns GTIN data of a product master record by product number, alternative unit and consecutive number",
         "tags": [
@@ -8398,6 +8559,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductUnitsOfMeasureEAN",
         "summary": "Updates GTIN data",
         "description": "Updates GTIN data of a product master record",
         "tags": [
@@ -8430,6 +8592,7 @@
         }
       },
       "delete": {
+        "operationId": "deleteA_ProductUnitsOfMeasureEAN",
         "summary": "Deletes GTIN data",
         "description": "Deletes GTIN data of a product master record",
         "tags": [
@@ -8447,6 +8610,7 @@
     },
     "/A_ProductValuation": {
       "get": {
+        "operationId": "listA_ProductValuations",
         "summary": "Returns valuation area data",
         "description": "Returns valuation area data of product master record",
         "tags": [
@@ -8515,6 +8679,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductValuation",
         "summary": "Creates valuation area data",
         "description": "Creates valuation area data of a product master record",
         "tags": [
@@ -8589,6 +8754,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductValuation",
         "summary": "Returns valuation area data by product number, valuation area and valuation type",
         "description": "Returns valuation area data of a product master record by product number, valuation area and valuation type",
         "tags": [
@@ -8625,6 +8791,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductValuation",
         "summary": "Updates valuation area data",
         "description": "Updates valuation area data of a product master record",
         "tags": [
@@ -8692,6 +8859,7 @@
         }
       ],
       "get": {
+        "operationId": "listMLAccountsOfA_ProductValuation",
         "summary": "Returns material ledger account data",
         "description": "Returns material ledger account data of product master record",
         "tags": [
@@ -8758,6 +8926,7 @@
         }
       },
       "post": {
+        "operationId": "createMLAccountOfA_ProductValuation",
         "summary": "Creates material ledger account data",
         "description": "Creates material ledger account data of a product master record",
         "tags": [
@@ -8833,6 +9002,7 @@
         }
       ],
       "get": {
+        "operationId": "listMLPricessOfA_ProductValuation",
         "summary": "Returns material ledger price data",
         "description": "Returns material ledger price data of product master record",
         "tags": [
@@ -8899,6 +9069,7 @@
         }
       },
       "post": {
+        "operationId": "createMLPricesOfA_ProductValuation",
         "summary": "Creates material ledger price data",
         "description": "Creates material ledger price data of a product master record",
         "tags": [
@@ -8974,6 +9145,7 @@
         }
       ],
       "get": {
+        "operationId": "getValuationAccountOfA_ProductValuation",
         "summary": "Returns valuation account data",
         "description": "Returns valuation account data of product master record",
         "tags": [
@@ -9043,6 +9215,7 @@
         }
       ],
       "get": {
+        "operationId": "getValuationCostingOfA_ProductValuation",
         "summary": "Returns costing data",
         "description": "Returns costing data of product master record",
         "tags": [
@@ -9079,6 +9252,7 @@
     },
     "/A_ProductValuationAccount": {
       "get": {
+        "operationId": "listA_ProductValuationAccounts",
         "summary": "Returns valuation account data",
         "description": "Returns valuation account data of product master record",
         "tags": [
@@ -9144,6 +9318,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductValuationAccount",
         "summary": "Creates valuation account data",
         "description": "Creates valuation account data of a product master record",
         "tags": [
@@ -9218,6 +9393,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductValuationAccount",
         "summary": "Returns valuation account data by product number, valuation area and valuation type",
         "description": "Returns valuation account data of a product master record by product number, valuation area and valuation type",
         "tags": [
@@ -9251,6 +9427,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductValuationAccount",
         "summary": "Updates valuation account data",
         "description": "Updates valuation account data of a product master record",
         "tags": [
@@ -9285,6 +9462,7 @@
     },
     "/A_ProductValuationCosting": {
       "get": {
+        "operationId": "listA_ProductValuationCostings",
         "summary": "Returns costing data",
         "description": "Returns costing data of product master record",
         "tags": [
@@ -9350,6 +9528,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductValuationCosting",
         "summary": "Creates costing data",
         "description": "Creates costing data of a product master record",
         "tags": [
@@ -9424,6 +9603,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductValuationCosting",
         "summary": "Returns costing data by product number, valuation area and valuation type",
         "description": "Returns costing data of a product master record by product number, valuation area and valuation type",
         "tags": [
@@ -9457,6 +9637,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductValuationCosting",
         "summary": "Updates costing data",
         "description": "Updates costing data of a product master record",
         "tags": [
@@ -9491,6 +9672,7 @@
     },
     "/A_ProductWorkScheduling": {
       "get": {
+        "operationId": "listA_ProductWorkSchedulings",
         "summary": "Returns work scheduling data",
         "description": "Returns work scheduling data of product master record",
         "tags": [
@@ -9556,6 +9738,7 @@
         }
       },
       "post": {
+        "operationId": "createA_ProductWorkScheduling",
         "summary": "Creates work scheduling data",
         "description": "Creates work scheduling data of a product master record",
         "tags": [
@@ -9619,6 +9802,7 @@
         }
       ],
       "get": {
+        "operationId": "getA_ProductWorkScheduling",
         "summary": "Returns work scheduling data by product number and plant",
         "description": "Returns work scheduling data of a product master record by product number and plant",
         "tags": [
@@ -9652,6 +9836,7 @@
         }
       },
       "patch": {
+        "operationId": "patchA_ProductWorkScheduling",
         "summary": "Updates work scheduling data",
         "description": "Updates work scheduling data of a product master record",
         "tags": [
@@ -9686,6 +9871,7 @@
     },
     "/$batch": {
       "post": {
+        "operationId": "performBatchOperation",
         "summary": "Send a group of requests",
         "description": "Group multiple requests into a single request payload, see [Batch Requests](https://help.sap.com/doc/5890d27be418427993fafa6722cdc03b/Cloud/en-US/OdataV2.pdf#page=152).\n\n*Please note that \"Try it out\" is not supported for this request.*",
         "tags": [
