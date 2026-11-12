@@ -1,7 +1,13 @@
 # Examples
 
-The S/4HANA Master Data Ballerina connectors will provide practical examples illustrating usage in various
-scenarios. Examples are added to this directory as they are written.
+The S/4HANA Master Data Ballerina connectors provide practical examples illustrating usage in various scenarios. Explore
+these [examples](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/tree/main/examples).
+
+1. [Product Catalog Report](https://github.com/ballerina-platform/module-ballerinax-sap.s4hana.masterdata/tree/main/examples/product-catalog-report) -
+   Reports on the product master data, using the OData query options of the `sap.s4hana.api_product_srv:Client` to page,
+   filter, sort and project the result and to read each product's descriptions in the same request. It lists the
+   products without a description in a given language and those marked for deletion. It is read only, so it is safe to
+   run against a productive tenant.
 
 ## Prerequisites
 
